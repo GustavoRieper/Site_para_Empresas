@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fadeIn {
+	-webkit-animation: fadeIn 0.5s ease-in-out;
+	-moz-animation: fadeIn 0.5s ease-in-out;
+	-o-animation: fadeIn 0.5s ease-in-out;
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+#img_topo{
+
+}
+
+.conteudo{
+	margin: 5% 15% 5% 15%;
+	font-family: 'Pontano Sans',sans-serif;
+	font-size:100%;
+	color:#333;
+	text-align:justify;
+	
+}
+.conteudo h1{
+	/*text-shadow:2px 2px 3px; #999;*/
+}
+.conteudo strong{
+	font-size:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ Inicio de Edição dos Cards ----------------------*/
+#cards{
+	width:300px;
+	height:50%;
+	z-index:0;
+	margin-left:10px;
+}
+
+#movieposters{ 
+	list-style:none; 
+	margin:100px; 
+	height:250px;
+	margin-left:11%;
+	margin-bottom:17%
+}
+
+
+#movieposters li{ 
+	display:inline; 
+	float:left;
+	height:400px;
+	-webkit-perspective: 800; 
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective; 
+	-webkit-transition-duration: 0.5s; 
+}
+
+
+#movieposters li:hover{ 
+	-webkit-perspective: 4000; 
+}
+
+#movieposters li img{ 
+	border:10px solid #fcfafa; 
+   -webkit-transform: rotateY(30deg);
+   -moz-box-shadow:0 3px 10px #888; 
+   -webkit-box-shadow:0 3px 10px #888;
+   -webkit-transition-property: transform; 
+   -webkit-transition-duration: 0.5s; 
+}
+
+#movieposters li:hover img{ 
+	-webkit-transform: rotateY(0deg); 
+}
+
+.movieinfo { 
+	border:10px solid #fcfafa; 
+	padding:20px; width:200px; height:180px; 
+	background-color:#deddcd; 
+	margin:-200px 0 0 10px;
+	z-index:1;
+	position:absolute;
+	-moz-box-shadow:0 20px 40px #888; 
+	-webkit-box-shadow:0 20px 40px #888;
+	-webkit-transform: translateZ(30px) rotateY(30deg);
+	-webkit-transition-property: transform, box-shadow, margin; 
+	-webkit-transition-duration: 0.5s;   
+}
+
+
+#movieposters li:hover .movieinfo{ 
+	-webkit-transform: rotateY(0deg); 
+	-webkit-box-shadow:0 5px 10px #888; 
+	margin:-10px 0 0 22px; 
+}
+
+
+.movieinfo h3 { 
+	color:#7a3f3a; font-variant: small-caps; 
+	font-family:Georgia,serif,Times; 
+	text-align:center; 
+	padding-bottom:15px; 
+}
+
+.movieinfo p { 
+	padding-bottom:15px; 
+}
+.movieinfo a { 
+	background-color:#7a3f3a; 
+	padding:5px 10px; color:#eee; 
+	text-decoration:none; 
+	display:block; 
+	width:80px; 
+	text-align:center; 
+	margin:0 auto;
+   -moz-border-radius:5px; 
+   -webkit-border-radius:5px;
+   margin-bottom:200px;
+}
+.movieinfo a:hover, .movieinfo a:focus { 
+	background-color:#6a191f; 
+	color:#fff; 
+}
+/* ---------------------------- Fim Edição dos Cards --------------------------------*/
+
+hr{
+	margin-left:20px;
+	margin-right:20px;
+	box-shadow:1px 1px 5px #666;
+}
+
+#img_resp1{
+	width:50%;
+	margin-left:25%;
+	margin-right:20%;
+
+}
+#img_nuvem{
+	width:50%;
+	float:right;
+}
+#img_nuvem2{
+	width:40%;
+	float:left;
+}
+.conteudo2{
+	margin: 5% 15% 5% 15%;
+	font-family: 'Pontano Sans',sans-serif;
+	font-size:100%;
+	color:#333;
+	text-align:justify;
+	margin-bottom:20%;
+	
+}
+#img_relat1{
+	width:30%;
+	float:left;
+
+}
+#img_relat2{
+	width:100%;
+	height:200px;
+}
+
+
+
+
+
+
+/* -------------------------- Formatação do Rodapé ----------------------------------- */
+.rodape{
+	background:#1f405b;
+	font-family: 'Catamaran', sans-serif;
+	text-align:center;
+	color:#FFF;
+	margin-top:100px;
+	margin-bottom:0px;
+	left:0;
+	right:0;
+	position:inherit;
+}
+.rodape p{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#rodape_email{
+	padding-bottom:20px;
+	margin-bottom:0px;
+}
+#menu_rodape{
+	padding:10px;
+	background-color:#244B6A;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.rodape a{
+	color:#FFF;
+	padding:10px;
+	margin-left:10px;
+	text-decoration:none;
+	text-align: center;
+  	font-family: 'Catamaran', sans-serif;
+
+}
+.rodape a:hover{
+	color:#000;
+	text-shadow: 1px 1px 1px #000000;
+	background-color:#E1E1E1;
+	text-decoration:none;
+	text-align: center;	
+}
+.rodape p a:hover{
+	background-color:#0b3455;
+	color:#FFF;
+	border-radius:5px;
+	text-shadow:2px 1px #000;
+}

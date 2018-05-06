@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fadeIn {
+	-webkit-animation: fadeIn 0.5s ease-in-out;
+	-moz-animation: fadeIn 0.5s ease-in-out;
+	-o-animation: fadeIn 0.5s ease-in-out;
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+.bg_video{
+	margin-top:-20px;
+	margin-left:25%;
+	position:absolute; 
+	right: 0;
+	left:0; 
+	float:left;
+	width: 50%;
+	z-index: -1000;
+	background-size: cover; 
+}
+#divisor{
+	padding-top:400px;
+	margin-left:0%;
+	margin-right:0%;
+	box-shadow: 0px 2px 5px #000;
+}
+.fd_videos{
+	background-color:#FFF;
+	margin-right:20px;
+	margin-top:30px;
+	width:97%;
+	height:400px;
+	border-radius:0px 10px 10px 0px;
+	box-shadow: 0px 2px 5px #000;
+}
+.videos{
+	padding:20px;
+	padding-left:40px;
+	float:left;
+
+}
+.descricao_video h1{
+	font-family: 'Pontano Sans',sans-serif;
+	float:left;
+	width:50%;
+}
+.descricao_video p{
+	float:left;
+	width:50%;
+	font-family: 'Pontano Sans',sans-serif;
+	font-size:110%;
+	color:#333;
+	text-align:justify;
+}
+.descricao_video strong{
+	font-size:40px;
+	margin-left:30px;
+}
+
+
+
+
+
+/* -------------------------- Formatação do Rodapé ----------------------------------- */
+.rodape{
+	background:#1f405b;
+	font-family: 'Catamaran', sans-serif;
+	text-align:center;
+	color:#FFF;
+	margin-top:50px;
+	margin-bottom:0px;
+	left:0;
+	right:0;
+	position:inherit;
+	float:inherit;
+}
+.rodape p{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#rodape_email{
+	padding-bottom:20px;
+	margin-bottom:0px;
+}
+#menu_rodape{
+	padding:10px;
+	background-color:#244B6A;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.rodape a{
+	color:#FFF;
+	padding:10px;
+	margin-left:10px;
+	text-decoration:none;
+	text-align: center;
+  	font-family: 'Catamaran', sans-serif;
+
+}
+.rodape a:hover{
+	color:#000;
+	text-shadow: 1px 1px 1px #000000;
+	background-color:#E1E1E1;
+	text-decoration:none;
+	text-align: center;	
+}
+.rodape p a:hover{
+	background-color:#0b3455;
+	color:#FFF;
+	border-radius:5px;
+	text-shadow:2px 1px #000;
+}

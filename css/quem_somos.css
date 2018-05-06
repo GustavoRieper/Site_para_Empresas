@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fadeIn {
+-webkit-animation: fadeIn 0.5s ease-in-out;
+-moz-animation: fadeIn 0.5s ease-in-out;
+-o-animation: fadeIn 0.5s ease-in-out;
+animation: fadeIn 0.5s ease-in-out;
+}
+.img_topo_quem{
+	width: 900px;
+
+
+}
+
+.conteudo{
+	margin: 5% 15% 5% 15%;
+	font-family: 'Pontano Sans',sans-serif;
+	font-size:100%;
+	color:#333;
+}
+.conteudo h1{
+	/*text-shadow:2px 2px 3px; #999;*/
+}
+#img1_conteudo{
+	height:15%;
+	width:50%;
+	float:right;
+}
+.equipe_lina1{
+	margin-left:15%;
+}
+.equipe_lina2{
+	margin-left:15%;
+}
+.equipe_lina1 img{
+	width:15%;
+	height:15%;
+	float:left;
+	border-radius:100%;
+	margin-left:0px;
+	margin-right:90px;
+	margin-bottom:20px;
+}
+.equipe_lina1 img:hover{
+	opacity:0.6;
+	box-shadow: 4px 3px 5px #000000;
+}
+.equipe_lina2 img{
+	width:15%;
+	height:15%;
+	float:left;
+	border-radius:100%;
+	margin-left:90px;
+}
+.equipe_lina2 img:hover{
+	opacity:0.6;
+	box-shadow: 4px 3px 5px #000000;
+}
+#equipe_lina2 :hover{
+	color:#000;
+	float:left;	
+}
+
+
+
+.conteudo2{
+	margin: 40% 15% 5% 15%;
+	font-family: 'Pontano Sans',sans-serif;
+	color:#333;
+	font-size:100%;
+	text-align:justify;
+}
+
+
+
+
+
+#img_robo{
+	margin-bottom:5%;
+	margin-right:5%;
+	height:5%;
+	width:20%;
+	float:right;
+	position:relative;
+}
+
+
+
+/* ------------------------------------------- Formatação Rodape ---------------------------------*/
+
+.rodape{
+	background:#1f405b;
+	font-family: 'Catamaran', sans-serif;
+	text-align:center;
+	color:#FFF;
+	margin-top:0px;
+	margin-bottom:0px;
+	left:0;
+	right:0;
+	position:inherit;
+}
+.rodape p{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#rodape_email{
+	padding-bottom:20px;
+	margin-bottom:0px;
+}
+#menu_rodape{
+	padding:10px;
+	background-color:#244B6A;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.rodape a{
+	color:#FFF;
+	padding:10px;
+	margin-left:10px;
+	text-decoration:none;
+	text-align: center;
+  	font-family: 'Catamaran', sans-serif;
+
+}
+.rodape a:hover{
+	color:#000;
+	text-shadow: 1px 1px 1px #000000;
+	background-color:#E1E1E1;
+	text-decoration:none;
+	text-align: center;	
+}
+.rodape p a:hover{
+	background-color:#0b3455;
+	color:#FFF;
+	border-radius:5px;
+	text-shadow:2px 1px #000;
+}

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/cadastro.css" />
+<title>Cadastro - Programação Web</title>
+</head>
+
+<body class="fadeIn">
+	<div class="menu">
+        <a href="inicio.html">Home</a>
+        <a href="quem_somos.html">Quem Somos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="videos.html">Vídeos</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="#">Cadastro</a>
+        <a href="contato.html">Contato</a>
+    </div> 
+    <div class="cadastro">
+    	<h2>Cadastre-se</h2>
+    	<form action="#">
+            <strong id="obrigatorio">*</strong>Nome:
+            <input id="campos" name="nome" required type="text">
+            
+            <strong id="obrigatorio">*</strong>Sobrenome:
+            <input id="campos" name="sobrenome" required type="text"><br><br>
+            
+            <strong id="obrigatorio">*</strong>Senha:
+            <input id="campos" name="senha" type="password" required><br><br>
+            
+            <strong id="obrigatorio">*</strong>
+            <label for="numero_fone">Número de telefone:</label>
+            <input id="campos" pattern="^\d{5}\d{4}" type="tel">
+            <b id="ex">Ex: <b>9</b>55555555</b><br>
+            
+            <strong id="obrigatorio">*</strong>Gênero<br>
+            <input type="radio" name="genero" required value="other"> Não listado<br>
+            <input type="radio" name="genero" required value="male"> Masculino<br>
+            <input type="radio" name="genero" required value="female"> Feminino<br><br>
+            
+            <strong id="obrigatorio">*</strong>E-mail:
+            <input id="campos" name="E-mail" type="email" required><br><br>
+            
+            Estado
+            <select id="campos">
+            	<option value="acre">Selecionar</option>
+                <option value="acre">AC</option>
+                <option value="alagoas">AL</option>
+                <option value="amapa">AP</option>
+                <option value="amazonas">AM</option>
+                <option value="bahia">BA</option>
+                <option value="ceara">CE</option>
+                <option value="destrito_federal">DF</option>
+                <option value="espirito_santo">ES</option>
+                <option value="goias">GO</option>
+                <option value="maranhao">MA</option>
+                <option value="mato_grosso">MT</option>
+                <option value="minas_gerais">AM</option>
+                <option value="para">PA</option>
+                <option value="paraiba">PB</option>
+                <option value="parana">PR</option>
+                <option value="pernambuco">PE</option>
+                <option value="piaui">PI</option>
+                <option value="rio_de_janeiro">RJ</option>
+                <option value="rio_grande_norte">RN</option>
+                <option value="rio_grande_sul">RS</option>
+                <option value="rondonia">RO</option>
+                <option value="roraima">RR</option>
+                <option value="santa_catarina">SC</option>
+                <option value="sao_paulo">SP</option>
+                <option value="sergipe">SE</option>
+                <option value="tocantins">TO</option>
+            </select><br><br>
+            
+            Data de Nascimento
+            <select id="campos">
+            	<option required value="acre">Selecionar</option>
+            	<option required value="1960">1960 à 1970</option>
+                <option required value="1971">1971 à 1980</option>
+                <option required value="1981">1981 à 1990</option>
+                <option required value="1991">1991 à 2000</option>
+                <option required value="2001">2001 à 2010</option>
+                <option required value="2011">2011 à ----</option>                
+            </select>
+            Mês
+            <select id="campos">
+           	 	<option required value="nulo">Selecionar</option>
+            	<option required value="janeiro">Janeiro</option>
+            	<option required value="fevereiro">Fevereiro</option>
+                <option required value="marco">Março</option>
+                <option required value="abril">Abril</option>
+                <option required value="maio">Maio</option>
+                <option required value="junho">Junho</option>
+                <option required value="julho">Julho</option>  
+                <option required value="agosto">Agosto</option>
+            	<option required value="setembro">Setembro</option>
+                <option required value="outubro">Outubro</option>
+                <option required value="novembro">Novembro</option>
+                <option required value="dezembro">Dezembro</option>            
+            </select>
+            Dia
+            <select id="campos">
+           	 	<option required value="01">01</option>
+            	<option required value="02">02</option>
+            	<option required value="03">03</option>
+                <option required value="04">04</option>
+                <option required value="05">05</option>
+                <option required value="06">06</option>
+                <option required value="07">07</option>
+                <option required value="08">08</option>  
+                <option required value="09">09</option>
+            	<option required value="10">10</option>
+                <option required value="11">11</option>
+                <option required value="12">12</option>
+                <option required value="13">13</option> 
+                <option required value="14">14</option>
+            	<option required value="15">15</option>
+            	<option required value="16">16</option>
+                <option required value="17">17</option>
+                <option required value="18">18</option>
+                <option required value="19">19</option>
+                <option required value="20">20</option>
+                <option required value="21">21</option>  
+                <option required value="22">22</option>
+            	<option required value="23">23</option>
+                <option required value="24">24</option>
+                <option required value="25">25</option>
+                <option required value="26">26</option> 
+                <option required value="27">27</option>  
+                <option required value="28">28</option>
+            	<option required value="29">29</option>
+                <option required value="30">30</option>
+                <option required value="31">31</option>               
+            </select><br><br>
+            
+            <b>Boletins Informativos:</b><br>
+            <input name="noticias" type="checkbox">Receber Notícias do Site no Email<br>
+            <input name="noticias" type="checkbox">Receber Emails promocionais<br>
+            <input name="noticias" type="checkbox">Receber Ofertas de Emprego<br>           
+            <br><br>
+            
+            <strong id="obrigatorio">*</strong>Termos de Licença: <a href="#"> Clique para LER.</a><br>
+            <input name="termo" type="radio" required>Concordo com os termos de licença do site.<br><br>
+            
+            <strong id="obrigatorio">*</strong>Data de Cadastro:
+            <input id="campos" name="data" type="date" required><br><br>
+            
+            <br>
+            <input id="campos_bt" type="submit" value="Enviar">
+            <input id="campos_bt" type="reset">
+
+		</form>
+    
+    
+    </div>
+    
+    
+    
+    <div class="rodape"> 
+    <div id="menu_rodape">
+    	<a href="inicio.html">Home</a>
+        <a href="quem_somos.html">Quem Somos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="videos.html">Vídeos</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="#">Cadastro</a>
+        <a href="contato.html">Contato</a>
+    </div>   
+            <p>Programação WEB 1 | 2017</p>
+            <p id="rodape_email"><a data-email="20171035@ielusc.br" href="mailto:20171035@ielusc.br">Gustavo Rieper | 20171035@ielusc.br</a></p>
+			
+
+    </div>
+</body>
+</html>
