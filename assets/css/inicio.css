@@ -1,0 +1,370 @@
+.sessao1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #999999;
+    margin-bottom:0;
+}
+#back_section1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 82px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+#logo_sessao1{
+    width: 230px;
+    height: 72px;
+    margin:5px 5px 5px 50px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.sessao2{
+    margin: 10px 0px 0px 0px;;
+}
+#banner-section2{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+}
+.sessao2 p{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    color:#FFF;
+    text-transform:uppercase;
+    text-align: right;
+    margin-right:50px;
+    margin-top:0px;
+    padding-top:70px;
+    font-size:40pt;
+
+}
+#img_estados{
+    position: relative;
+    position: right;
+}
+.sessao3{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF;
+    font-weight: lighter 300;
+
+    
+}
+.sessao3 h2{
+    text-align: center;
+    margin: 0 auto;
+    background-color:#ce6b00;
+    padding: 20px;
+    height: 40px;
+    transition: all 0.3s;
+    margin:0px 2px 0px 2px;
+}
+.sessao3 h2:hover{
+    background: #d67513;
+}
+.sessao3 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.sessao3 ul li {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 1px;
+}
+.sessao3 li ul {
+    position: relative;    
+    top: 0;
+    display: none;
+    
+}
+.sessao3 ul li{
+    text-align: center;
+    
+}
+.sessao3 ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #ff9626;
+    padding: 10px;
+    margin:0px 2px 0px 2px;
+    border-bottom: 0;
+    transition: all 0.3s;
+}
+.sessao3 ul li a:hover{
+    background: #d67513;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+.sessao3 ul {
+    list-style: none;
+
+}
+.sessao3 li:hover ul { 
+    display: block; 
+    transition: all 0.3s;
+    z-index:99;
+}
+#ico_estilos{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top:10px;
+}
+#ico_marcas{
+    position: absolute;
+    max-width: 60px;
+    right: 10px;
+    top:10px;
+    max-height:25px;
+}
+.sessao4{
+    margin-top:160px;
+    position: relative;
+    /*background-image: url(../imagens/inicio/marcas-fundo.png);*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    width: auto;
+}
+.sessao4 h2{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size:40pt;
+    border-bottom: 2px solid #000;
+    padding-top:50px;
+    width: 250px;
+    padding: 20px 0px 0px 50px;
+}
+.marcas{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+}
+#img_marcas{
+    position: relative;
+    max-width: 200px;
+    margin:20px 20px 30px 10px;
+    cursor: pointer;
+    
+}
+#img_marcas:hover{
+    opacity: 0.7;
+}
+.sessao5{
+    position: relative;
+    margin-top:100px;
+    background-image: url(http://localhost/VEG/otica_codeigniter/assets/img/inicio/contato_oculos.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    height: 700px;
+    width: 100%;
+    z-index:1;
+}
+.sessao5 p{
+    font-family: 'Raleway', sans-serif;
+    width: 25%;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+#cont_p1, #cont_p2, #cont_p3{
+    width: 93%;
+}
+#erro{
+    background-color: rgba(212, 86, 86, 0.753);
+}
+#sucess{
+    background-color: rgba(132, 212, 86, 0.753);
+}
+.sessao5 label{
+    font-family: 'Raleway', sans-serif;
+}
+.sessao5 h2{
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+    padding: 20px 0px 0px 50px;
+    font-size:50pt;
+    border-bottom: 2px solid #000;
+    width: 250px;
+}
+.sessao5 form{
+    position:absolute;
+    margin-left:50px;
+    width: 20%;
+}
+.sessao5 form input[type=text], input[type=email]{
+    font-size:15pt;
+    background-color: rgb(245, 243, 243);
+    border-radius:5px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 3px;
+    width: 300px;
+}
+.sessao5 form textarea{
+    padding: 5px;
+}
+.sessao5 form input[type="submit"]{
+    background-color: #cc3333;
+    padding: 10px 20px 10px 20px;
+    border-radius:10px;
+    border: solid 1px #ccc;
+    outline: none;
+    color:#FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:15pt;
+    cursor: pointer;
+}
+.sessao5 form input[type="submit"]:hover{
+    background-color: #a02a2a;
+}
+.sessao5 form h3{
+    font-size:10pt;
+    text-align: left;
+    color: #000;
+    margin: 0;
+}
+.sessao5 h3{
+    font-family: Open Sans;
+    text-align: right;
+    margin-top:17%;
+    color:#FFF;
+    margin-right: 50px;
+    font-size:30pt;
+    margin-bottom: 0px;
+}
+#cont_p1{
+    text-align: right;
+    color:#FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20pt;
+    margin-right:50px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#cont_p2{
+    text-align: right;
+    color:#FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:15pt;
+    margin-right:50px;
+    margin-top:0px;
+}
+#cont_p3{
+    text-align: right;
+    color:#FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:15pt;
+    margin-right:50px;
+    margin-top:0px;
+}
+#mapa{
+    position: relative;
+    margin-top:-30px;
+    width:100%; 
+    height:600px;
+    border:0;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #cc3333;
+}
+footer h3{
+    color:#FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size:15pt;
+    margin-left:50px;
+    width: 300px;
+}
+#redes_sociais{
+    width: 300px;
+    margin-left:50px;
+}
+#redes_sociais img{
+    width: 50px;
+    margin: 0 auto;
+}
+#redes_sociais img:hover{
+    opacity:0.7;
+}
+footer p{
+    text-align: center;
+    color:#FFF;
+    font-size:15pt;
+}
+/* Blog */
+.blog{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+.blog .row1{
+    width: 75%;
+    /* background-color: #333333; */
+    text-align: center;
+}
+.blog .row1 span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size:22px;
+    width: 100%;
+}
+.blog .row1 .post{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+.post .zone1{
+    width: 20%;
+    height: 150px;
+    margin-left: 10px;
+}
+.post .zone2{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+}
+.post .zone2 h2{
+    font-family: 'Raleway', sans-serif;
+}
+.blog .row2{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: -5%;
+    position: fixed;
+}
+.blog .row2 img{
+    width: 25%;
+    position: absolute;
+    right: 0;
+}

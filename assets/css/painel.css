@@ -1,0 +1,63 @@
+.linha{
+    width: 25%;
+    margin-left: 37.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.linha h2{
+    margin-bottom: 50px;
+}
+label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+input[type='file']{
+    padding-left: 0;
+}
+textarea{
+    height: 150px;
+}
+input.enviar{
+    width: auto;
+    cursor: pointer;
+}
+.msg-box{
+    background:#f1f2ea;
+    border: 1px solid #c7cbab;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.801);
+    text-shadow: 1px 1px 1px #fff;
+}
+.msg-box p{
+    margin: 0;
+    padding: 2px 0;
+}
+.blog-list{
+    width: 50%!important;
+    margin-left: 25%!important;
+}
+table{
+    width: 100%;
+    font-size: 18px;
+}
+table td{
+    padding: 10px 0;
+}
+table tbody tr:hover{
+    background: #f1f2ea;
+    color: #727272;
+}
+img.thumb-edicao{
+    width: 200px;
+    height: auto;
+}
+.jqte_editor{
+    height: 300px;
+}
